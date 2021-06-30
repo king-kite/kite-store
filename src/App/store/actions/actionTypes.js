@@ -1,0 +1,18 @@
+export const AUTH_START = "AUTH_START";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAIL = "AUTH_FAIL";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+
+export const CART_ERROR = "CART_ERROR";
+export const GET_CART_ITEMS = "GET_CART_ITEMS";
+export const ADD_CART_ITEM = "ADD_CART_ITEM";
+export const REMOVE_CART_ITEM = "REMOVE_CART_ITEM";
+export const REMOVE_SINGLE_CART_ITEM = "REMOVE_SINGLE_CART_ITEM";
+
+export const GET_ALL_ITEMS = "GET_ALL_ITEMS";
+export const GET_ITEM = "GET_ITEM";
+
+export const WISHLIST_ERROR = "WISHLIST_ERROR";
+export const GET_WISHLIST_ITEMS = "GET_WISHLIST_ITEMS";
+export const ADD_WISHLIST_ITEM = "ADD_WISHLIST_ITEM";
+export const REMOVE_WISHLIST_ITEM = "REMOVE_WISHLIST_ITEM";

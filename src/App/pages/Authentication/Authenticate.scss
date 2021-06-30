@@ -1,0 +1,86 @@
+.login__form {
+  background: darken(white, 5%);
+  align-items: center;
+  width: 100%;
+  padding: 0;
+
+  .login__form__card {
+    background: linear-gradient(
+        to right,
+        rgba(lighten(black, 30%), 0.9),
+        rgba(darken(white, 30%), 0.3)
+      ),
+      url(https://mdbcdn.b-cdn.net/img/Photos/Others/pricing-table7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+    height: 91vh;
+    width: 100%;
+  }
+}
+
+.header {
+  text-align: center;
+  color: lighten(black, 30%);
+  margin-top: 4rem;
+
+  &__title {
+    font-weight: bold;
+    margin: 0 0.2rem;
+  }
+
+  &__link {
+    color: #00b74a;
+    margin: 0 0.3rem;
+
+    &:hover {
+      color: lighten(black, 80%);
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  &__input {
+    width: 75%;
+
+    input {
+      margin: 1rem 0;
+      color: lighten(black, 80%);
+    }
+  }
+
+  &__checkbox {
+    &__text {
+      color: lighten(black, 80%);
+    }
+
+    &__link {
+      color: #00b74a;
+      margin: 0 0.3rem;
+
+      &:hover {
+        color: lighten(black, 80%);
+      }
+    }
+  }
+
+  &__footer {
+    color: lighten(black, 80%);
+
+    &__link {
+      color: #00b74a;
+      margin: 0 0.3rem;
+
+      &:hover {
+        color: lighten(black, 80%);
+      }
+    }
+  }
+}

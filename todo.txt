@@ -1,0 +1,11 @@
+0. Fix the Scroll Top to go to the top on page change.
+1. Work on the category.
+2. Work on Additional Information in the Product Info Page.
+3. Add an Account Page.
+4. Add an Admin Page as well.
+
+// Side Notes //
+// "@fortawesome/fontawesome": "^1.1.8",
+// "@fortawesome/fontawesome-free-brands": "^5.0.13",
+// "@fortawesome/fontawesome-free-solid": "^5.0.13",
+// "@fortawesome/react-fontawesome": "^0.1.14",
